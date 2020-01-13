@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09284085522DE0763E789E90 /* Pods_ConversorMoedas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6FE3116227100CBCBF860F9 /* Pods_ConversorMoedas.framework */; };
+		3CEC2C5C9133879D1599D1D5 /* Pods_ConversorMoedasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582DE07992C3CAE1D3A07F4C /* Pods_ConversorMoedasTests.framework */; };
+		483F0A342341D37B18A58464 /* Historico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483F023DCB222BA0137313E1 /* Historico.swift */; };
+		6E174CC823C7C24E000EBFB9 /* Moeda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E174CC723C7C24E000EBFB9 /* Moeda.swift */; };
+		6E587AF123C91905007B729F /* HistoricoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E587AF023C91905007B729F /* HistoricoCell.swift */; };
+		6E587AF323C91AF1007B729F /* HistoricoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E587AF223C91AF1007B729F /* HistoricoController.swift */; };
 		6E9BB1E223C6574300AB77A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BB1E123C6574300AB77A0 /* AppDelegate.swift */; };
 		6E9BB1E423C6574300AB77A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BB1E323C6574300AB77A0 /* SceneDelegate.swift */; };
 		6E9BB1E623C6574300AB77A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BB1E523C6574300AB77A0 /* ViewController.swift */; };
@@ -16,6 +22,10 @@
 		6E9BB1F123C6574400AB77A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9BB1EF23C6574400AB77A0 /* LaunchScreen.storyboard */; };
 		6E9BB1FC23C6574500AB77A0 /* ConversorMoedasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BB1FB23C6574500AB77A0 /* ConversorMoedasTests.swift */; };
 		6E9BB20723C6574500AB77A0 /* ConversorMoedasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BB20623C6574500AB77A0 /* ConversorMoedasUITests.swift */; };
+		6E9BB21523C658A600AB77A0 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BB21423C658A600AB77A0 /* LoginController.swift */; };
+		6EF7701C23C6633C00B8D266 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF7701B23C6633C00B8D266 /* Button.swift */; };
+		6EF7701E23C676B600B8D266 /* CambioConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF7701D23C676B600B8D266 /* CambioConverter.swift */; };
+		6EF7706023C681CA00B8D266 /* CambioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF7705F23C681CA00B8D266 /* CambioCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A64E7012836070944CDB022 /* Pods-ConversorMoedasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConversorMoedasTests.release.xcconfig"; path = "Target Support Files/Pods-ConversorMoedasTests/Pods-ConversorMoedasTests.release.xcconfig"; sourceTree = "<group>"; };
+		483F023DCB222BA0137313E1 /* Historico.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Historico.swift; sourceTree = "<group>"; };
+		582DE07992C3CAE1D3A07F4C /* Pods_ConversorMoedasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConversorMoedasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E174CC723C7C24E000EBFB9 /* Moeda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moeda.swift; sourceTree = "<group>"; };
+		6E587AF023C91905007B729F /* HistoricoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricoCell.swift; sourceTree = "<group>"; };
+		6E587AF223C91AF1007B729F /* HistoricoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricoController.swift; sourceTree = "<group>"; };
 		6E9BB1DE23C6574300AB77A0 /* ConversorMoedas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConversorMoedas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9BB1E123C6574300AB77A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E9BB1E323C6574300AB77A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +67,14 @@
 		6E9BB20223C6574500AB77A0 /* ConversorMoedasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConversorMoedasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9BB20623C6574500AB77A0 /* ConversorMoedasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversorMoedasUITests.swift; sourceTree = "<group>"; };
 		6E9BB20823C6574500AB77A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E9BB21423C658A600AB77A0 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		6EF7701B23C6633C00B8D266 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		6EF7701D23C676B600B8D266 /* CambioConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CambioConverter.swift; sourceTree = "<group>"; };
+		6EF7705F23C681CA00B8D266 /* CambioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CambioCell.swift; sourceTree = "<group>"; };
+		A06874E26C46BC132A4E3CBE /* Pods-ConversorMoedasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConversorMoedasTests.debug.xcconfig"; path = "Target Support Files/Pods-ConversorMoedasTests/Pods-ConversorMoedasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6FE3116227100CBCBF860F9 /* Pods_ConversorMoedas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConversorMoedas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD082F13FA13E097535527ED /* Pods-ConversorMoedas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConversorMoedas.debug.xcconfig"; path = "Target Support Files/Pods-ConversorMoedas/Pods-ConversorMoedas.debug.xcconfig"; sourceTree = "<group>"; };
+		DA753920CF1C9C0783D1B609 /* Pods-ConversorMoedas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConversorMoedas.release.xcconfig"; path = "Target Support Files/Pods-ConversorMoedas/Pods-ConversorMoedas.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09284085522DE0763E789E90 /* Pods_ConversorMoedas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CEC2C5C9133879D1599D1D5 /* Pods_ConversorMoedasTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +104,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		006AE5E4ED2A4AF16BB41793 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD082F13FA13E097535527ED /* Pods-ConversorMoedas.debug.xcconfig */,
+				DA753920CF1C9C0783D1B609 /* Pods-ConversorMoedas.release.xcconfig */,
+				A06874E26C46BC132A4E3CBE /* Pods-ConversorMoedasTests.debug.xcconfig */,
+				0A64E7012836070944CDB022 /* Pods-ConversorMoedasTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		55CCAE9FD190101AFA40554B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6FE3116227100CBCBF860F9 /* Pods_ConversorMoedas.framework */,
+				582DE07992C3CAE1D3A07F4C /* Pods_ConversorMoedasTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E174CC623C7C23D000EBFB9 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				6E174CC723C7C24E000EBFB9 /* Moeda.swift */,
+				483F023DCB222BA0137313E1 /* Historico.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		6E9BB1D523C6574300AB77A0 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +140,8 @@
 				6E9BB1FA23C6574500AB77A0 /* ConversorMoedasTests */,
 				6E9BB20523C6574500AB77A0 /* ConversorMoedasUITests */,
 				6E9BB1DF23C6574300AB77A0 /* Products */,
+				006AE5E4ED2A4AF16BB41793 /* Pods */,
+				55CCAE9FD190101AFA40554B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +158,10 @@
 		6E9BB1E023C6574300AB77A0 /* ConversorMoedas */ = {
 			isa = PBXGroup;
 			children = (
+				6E174CC623C7C23D000EBFB9 /* models */,
+				6EF7705E23C681AE00B8D266 /* cells */,
+				6EF7701A23C6632D00B8D266 /* components */,
+				6E9BB21623C65A8E00AB77A0 /* controllers */,
 				6E9BB1E123C6574300AB77A0 /* AppDelegate.swift */,
 				6E9BB1E323C6574300AB77A0 /* SceneDelegate.swift */,
 				6E9BB1E523C6574300AB77A0 /* ViewController.swift */,
@@ -131,6 +192,33 @@
 			path = ConversorMoedasUITests;
 			sourceTree = "<group>";
 		};
+		6E9BB21623C65A8E00AB77A0 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6E9BB21423C658A600AB77A0 /* LoginController.swift */,
+				6EF7701D23C676B600B8D266 /* CambioConverter.swift */,
+				6E587AF223C91AF1007B729F /* HistoricoController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		6EF7701A23C6632D00B8D266 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				6EF7701B23C6633C00B8D266 /* Button.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		6EF7705E23C681AE00B8D266 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				6EF7705F23C681CA00B8D266 /* CambioCell.swift */,
+				6E587AF023C91905007B729F /* HistoricoCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E9BB20B23C6574500AB77A0 /* Build configuration list for PBXNativeTarget "ConversorMoedas" */;
 			buildPhases = (
+				4417B3DD73B846C590115729 /* [CP] Check Pods Manifest.lock */,
 				6E9BB1DA23C6574300AB77A0 /* Sources */,
 				6E9BB1DB23C6574300AB77A0 /* Frameworks */,
 				6E9BB1DC23C6574300AB77A0 /* Resources */,
+				2C5678BEF62E63F7C7F7E027 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E9BB20E23C6574500AB77A0 /* Build configuration list for PBXNativeTarget "ConversorMoedasTests" */;
 			buildPhases = (
+				05C0DAF343D015430AA471A3 /* [CP] Check Pods Manifest.lock */,
 				6E9BB1F323C6574500AB77A0 /* Sources */,
 				6E9BB1F423C6574500AB77A0 /* Frameworks */,
 				6E9BB1F523C6574500AB77A0 /* Resources */,
@@ -257,15 +348,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05C0DAF343D015430AA471A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConversorMoedasTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C5678BEF62E63F7C7F7E027 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConversorMoedas/Pods-ConversorMoedas-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConversorMoedas/Pods-ConversorMoedas-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConversorMoedas/Pods-ConversorMoedas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4417B3DD73B846C590115729 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConversorMoedas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6E9BB1DA23C6574300AB77A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E587AF123C91905007B729F /* HistoricoCell.swift in Sources */,
 				6E9BB1E623C6574300AB77A0 /* ViewController.swift in Sources */,
+				6EF7701C23C6633C00B8D266 /* Button.swift in Sources */,
+				6EF7706023C681CA00B8D266 /* CambioCell.swift in Sources */,
 				6E9BB1E223C6574300AB77A0 /* AppDelegate.swift in Sources */,
 				6E9BB1EC23C6574300AB77A0 /* ConversorMoedas.xcdatamodeld in Sources */,
+				6EF7701E23C676B600B8D266 /* CambioConverter.swift in Sources */,
+				6E587AF323C91AF1007B729F /* HistoricoController.swift in Sources */,
 				6E9BB1E423C6574300AB77A0 /* SceneDelegate.swift in Sources */,
+				6E174CC823C7C24E000EBFB9 /* Moeda.swift in Sources */,
+				6E9BB21523C658A600AB77A0 /* LoginController.swift in Sources */,
+				483F0A342341D37B18A58464 /* Historico.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,42 +599,47 @@
 		};
 		6E9BB20C23C6574500AB77A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD082F13FA13E097535527ED /* Pods-ConversorMoedas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 47UT4R97SY;
+				DEVELOPMENT_TEAM = QDH2R688W5;
 				INFOPLIST_FILE = ConversorMoedas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = teste.ConversorMoedas;
+				PRODUCT_BUNDLE_IDENTIFIER = teste.ConversorMoefwddas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		6E9BB20D23C6574500AB77A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA753920CF1C9C0783D1B609 /* Pods-ConversorMoedas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 47UT4R97SY;
+				DEVELOPMENT_TEAM = QDH2R688W5;
 				INFOPLIST_FILE = ConversorMoedas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = teste.ConversorMoedas;
+				PRODUCT_BUNDLE_IDENTIFIER = teste.ConversorMoefwddas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		6E9BB20F23C6574500AB77A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A06874E26C46BC132A4E3CBE /* Pods-ConversorMoedasTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +662,7 @@
 		};
 		6E9BB21023C6574500AB77A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A64E7012836070944CDB022 /* Pods-ConversorMoedasTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

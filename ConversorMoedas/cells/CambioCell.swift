@@ -1,25 +1,20 @@
 //
-//  AlvaraOptionsCell.swift
-//  AppCidade
-//
-//  Created by Find Soluções on 13/09/18.
-//  Copyright © 2018 Rayller Emery. All rights reserved.
+//Bruno Camargos
 //
 
 import UIKit
 
-class CambioPickerCell: UITableViewCell {
+class CambioCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
-
-    @IBOutlet weak var mTitle: UILabel!
+    
+    @IBOutlet weak var mPaisNome: UILabel!
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
     }
 
 }
